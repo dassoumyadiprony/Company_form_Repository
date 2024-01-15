@@ -1,0 +1,310 @@
+﻿@{
+    ViewData["Title"] = "Getform";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Company form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="navbar-top" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Company Form</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Master <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Loream Ipsum</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu dd-box" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Loream Ipsum 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Loream Ipsum 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Loream Ipsum 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Loream Ipsum 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Loream Ipsum 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Loream Ipsum 3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Loream Ipsum</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wraper-main-detail">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="container">
+                        <form action="" class="group-registration-form">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <legend class="text-black">Company Info</legend>
+                                    <div class="row" >
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">Company Name</label>
+                                                <input type="text" required placeholder="Company name*" id="coname" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">Company Email</label>
+                                                <input type="email" required placeholder="Company email*" id="comail" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">GST No.</label>
+                                                <input type="text" required placeholder="GST no.*" id="gstno" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">TIN No.</label>
+                                                <input type="text" required placeholder="TIN no.*" id="tinno" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">Phone No.</label>
+                                                <input type="text" required placeholder="Phone no.*" id="phone" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">Fax No.</label>
+                                                <input type="text" required placeholder="Fax no.*" id="faxno" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label class="label-dflt">Corporate Address</label>
+                                                <textarea name="" id="coraddress" rows="2" required class="form-control" placeholder="Corporate address*"></textarea>
+                                            </div>
+                                        </div>
+
+                                        @*-------------------------------------------------*@
+
+                                        @*<div class="shadow-border s_BorderRelative bg-light mb-4" id="checker">
+                                            <div id="bank Details">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="form-group">
+                                                            <label class="label-dflt">Account Name</label>
+                                                            <input type="text" class="form-control form-control-sm" id="AccountName1" name="AccountName">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-12 text-right">
+                                                        <button class="btn btn-sm btn-primary" id="AddBtoon"><i class="fa fa-plus mr-1"></i>Add More</button>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>*@
+                                            @*-------------------------------------------------*@
+
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group" id="branchid">
+                                                    <div>
+                                                        <label class="label-dflt">Branch Address</label>
+                                                        <textarea name="" id="branchaddress" rows="2" required class="form-control" placeholder="Branch address*"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="table-responsive">
+                                                    <table class="table table-branch-row">
+                                                        <tbody id="branchGroup">
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="mb-3">
+                                                <button type="button" class="text-pink" id="addBtn">+ Add More Branch</button>
+                                                </div>
+                                            </div>
+
+                                            @* <div id="appendbranchadd">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                            <div>
+                                            <label class="label-dflt">Branch Address</label>
+                                            <textarea name="" id="branchaddress1" rows="2" required class="form-control" placeholder="Branch address"></textarea>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>*@
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Website Url</label>
+                                                    <input type="text" required placeholder="Website url*" id="url" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Registration date</label>
+                                                    <input type="text" id="datepicker" required placeholder="Registration date*" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Registered address</label>
+                                                    <textarea name="" id="registrationaddress" rows="2" required class="form-control" placeholder="Registered address*"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <legend class="text-black">Contact person info</legend>
+                                        <div class="row">
+                                            <div class="col-xl-12 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Name</label>
+                                                    <input type="text" required placeholder="Name*" id="name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Phone No.</label>
+                                                    <input type="text" required placeholder="Phone no.*" id="phoneno" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label class="label-dflt">Email</label>
+                                                    <input type="email" required placeholder="Email*" id="email" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="label-dflt">Remarks</label>
+                                            <textarea name="" id="remarks" rows="3" required class="form-control" placeholder="Remarks"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                        <div class="form-group text-center">
+                                            <button type="submit" id="btn-submit" class="btn btnGrey btn-xl">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="~/content/js/user/userform.js"></script>
+
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+
+        $(document).ready(function () {
+
+            // Denotes total number of rows
+            //var rowIdx = 0;
+
+            //// jQuery button click event to add a row
+            //$('#addBtn').on('click', function () {
+
+            //  // Adding a row inside the tbody.
+            //  $('#branchGroup').append(`<tr class="input-group form-group" id="R${++rowIdx}">
+            //    <label class="label-dflt">Branch Address</label>
+            //    <td class=" adrs-box">
+            //         <div class="input-group">
+            //          <textarea name="" id="addmore" rows="2" required class="form-control" placeholder="Branch address"></textarea>
+            //          <div class="text-center input-group-append  btn-box">
+            //          <button class="btn btn-block btn-danger remove"
+            //          type="button">&times;</button>
+            //          </div>
+            //        </div>
+            //    </td>
+            //    </tr>`);
+            //});
+
+            // jQuery button click event to remove a row.
+            $('#branchGroup').on('click', '.remove', function () {
+
+                // Getting all the rows next to the row
+                // containing the clicked button
+                var child = $(this).closest('tr').nextAll();
+
+                // Iterating across all the rows
+                // obtained to change the index
+                child.each(function () {
+
+                    // Getting <tr> id.
+                    var id = $(this).attr('id');
+
+                    // Getting the <p> inside the .form-group class.
+                    var idx = $(this).children('.form-group').children('p');
+
+                    // Gets the row number from <tr> id.
+                    var dig = parseInt(id.substring(1));
+
+                    // Modifying row index.
+                    idx.html(`Row ${dig - 1}`);
+
+                    // Modifying row id.
+                    $(this).attr('id', `R${dig - 1}`);
+                });
+
+                // Removing the current row.
+                $(this).closest('tr').remove();
+
+                // Decreasing total number of rows by 1.
+                rowIdx--;
+            });
+        });
+    </script>
+</body>
+
+</html>

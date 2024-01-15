@@ -46,7 +46,7 @@ namespace CVMS_Core.Controllers
             return Json(new { result });
 
         }
-        public IActionResult ChamanChutiya(int id)
+        public IActionResult Chaman(int id)
         {
             return View();
         } 
